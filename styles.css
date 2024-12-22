@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.tasks-container, .options-container {
+    width: 45%;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.tasks-container h2, .options-container h2 {
+    margin-top: 0;
+}
